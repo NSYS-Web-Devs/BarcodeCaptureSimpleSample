@@ -1,4 +1,4 @@
-package com.barcodecapturesimplesample;
+package com.bluetooth;
 
 import android.app.Application;
 import com.facebook.react.PackageList;

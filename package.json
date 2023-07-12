@@ -1,5 +1,5 @@
 {
-  "name": "BarcodeCaptureSimpleSample",
+  "name": "bluetooth",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -12,8 +12,7 @@
   "dependencies": {
     "react": "18.2.0",
     "react-native": "0.72.1",
-    "scandit-react-native-datacapture-barcode": "^6.18.0",
-    "scandit-react-native-datacapture-core": "^6.18.0"
+    "react-native-ble-manager": "^10.1.2"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
