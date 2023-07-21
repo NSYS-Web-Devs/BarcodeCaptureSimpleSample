@@ -20,7 +20,7 @@ import {
 
 import {Colors} from 'react-native/Libraries/NewAppScreen';
 
-const SECONDS_TO_SCAN_FOR = 7;
+const SECONDS_TO_SCAN_FOR = 1;
 const SERVICE_UUIDS: string[] = [];
 const ALLOW_DUPLICATES = true;
 
@@ -162,6 +162,7 @@ const App = () => {
       );
     }
   };
+
 
   const connectPeripheral = async (peripheral: Peripheral) => {
     try {
@@ -356,7 +357,6 @@ const App = () => {
       );
       // Actions triggereng BleManagerDidUpdateValueForCharacteristic event
     }
-console.log(connect)
     if(connect){
       connectAndPrepare("24:4C:AB:05:FE:E6", "91bad492-b950-4226-aa2b-4ede9fa42f59", "f78ebbff-c8b7-4107-93de-889a6a06d408")
     }
